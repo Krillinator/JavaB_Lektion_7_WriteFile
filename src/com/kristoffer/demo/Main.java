@@ -15,6 +15,7 @@ public class Main {
         System.out.println(osName);
         System.out.println(osNameOneWord);
         System.out.println(compUsername);
+        System.out.println(System.getProperty("user.dir")); // Get path of Project
 
         // Determine OS
         switch (osNameOneWord) {
